@@ -1,0 +1,428 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Container-Text-Wrap {
+	margin-left: 80px;
+}
+
+.Navbar {
+  background-color: black;
+  width: 100%;
+}
+
+.Navbar-Contact-Section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Navbar-Wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.Navbar-Contact {
+  display: flex;
+  color: white;
+}
+
+.Navbar-Contact a {
+	color: white;
+	text-decoration: none;
+}
+
+.Navbar-Social {
+	margin: 0 50px;
+}
+
+.Navbar-Social img {
+	cursor: pointer;
+}
+
+.Navbar-Contact-Item {
+	display: flex;
+	align-items: center;
+	margin-left: 10px; 
+}
+
+.Navbar-Contact-Item a {
+	margin-left: 10px;
+	border: 1px solid white;
+	padding: 10px 30px;
+	border-radius: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.Navbar-Contact-Item a img {
+	margin-right: 20px;
+}
+
+.Hero {
+  	background-image: url(cover.jpg);
+  	padding: 260px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Hero-Text {
+	width: 600px;
+	font-size: 25px; 
+	color: white;
+	text-align: justify;
+}
+
+.Hero-Title {
+	margin: 0;
+	width: 500px;
+	font-size: 50px;
+	color: white;
+}
+
+.Section-Wrap {
+	padding: 60px 100px;
+	display: flex;
+	align-items: center;
+}
+
+.Section-Wrap--Image-Left .Section-Content {
+	order: 2
+}
+
+.Section-Wrap--Image-Left .Section-Image {
+	order: 1
+}
+
+.Section-Content {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.Section-Content p {
+	text-align: justify;
+}
+
+.Section-Content-Title {
+	font-size: 50px
+
+}
+.Section-Content-Text {
+	font-size: 25px;
+
+}
+
+.Section-Image {
+	width: 50%;
+	padding: 30px;
+}
+
+.Price-Container {
+	display: flex;
+}
+
+.Price-Wrap {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	font-size: 20px;
+	
+}
+
+.Price-Wrap2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	text-transform: uppercase;
+	font-size: 20px;
+
+}
+
+.Price {
+	font-size: 50px;
+	color: #DE197D;
+}
+.Price-Container-Button {
+	margin-top: 10px;
+}
+
+.Section-Disclaimer {
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.Price-Wrap-small2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration: line-through;
+}
+
+.Price-Wrap-small1 {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration: line-through;
+
+	}
+
+.button {
+  background-image: linear-gradient(to right, #DE197D, #380441);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50px;
+  width: 220px;
+  box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.Testimonials {
+	background-image: linear-gradient(to right, #062D50, #58C7DC);
+	color: white;
+	text-align: center;
+}
+
+.Testimonial-Content-Wrap {
+	display: flex;
+}
+
+.Section-Testimonial-Title {
+	font-size: 50px;
+}
+.Testimonials-h2 {
+	padding: 20px 0;
+}
+
+.Section-Testimonial-Content {
+	font-size: 20px;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+.Testimonial-Arrow {
+	margin: 50px;
+}
+
+footer {
+  height: 100%;
+  background-color: black;
+  color: white;
+	
+}
+
+.Container-Wrapper {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.Footer-Title {
+	font-size: 50px;
+}
+.Footer-Text {
+	font-size: 20px;
+	width: 450px;
+	text-align: justify;
+}
+.Footer-Contact-Section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Footer-Contact {
+  display: flex;
+  color: white;
+}
+
+.Footer-Contact a {
+	color: white;
+	text-decoration: none;
+}
+
+.Footer-Social {
+	margin: 0 50px;
+}
+
+.Footer-Contact-Item {
+	display: flex;
+	align-items: center;
+	font-size: 20px; 
+}
+
+.Footer-Contact-Item a {
+	margin-left: 10px;
+	border: 1px solid white;
+	padding: 10px 30px;
+	border-radius: 35px;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+.Footer-Contact-Item a img {
+	margin-right: 20px;
+}
+.Footer-Contact-Item-Viber {
+	margin-left: 20px;
+}
+
+.Footer-Adress-Section {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+}
+
+.Footer-Adress-Section a {
+	overflow: hidden;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 5px 0;
+	text-decoration: underline;
+	
+
+}
+.Footer-Adress-Section a img {
+	margin-right: 10px;
+}
+.Footer-Hours-Section {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+}
+.Footer-Hours-Section-Content {
+	padding: 5px 0;
+}
+.Footer-Social-Section {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0;
+}
+.Footer-Social-Title {
+	font-size: 20px;
+	padding: 10px 0;
+}
+.Footer-Social-Img {
+	cursor: pointer;
+}
+.Instagram-Img {
+	margin-left: 5px;
+
+}
+.containerForm {
+	margin-left: 70px;
+	margin-top: 40px;
+}
+.containerForm-Content {
+	width: 400px;
+}
+input[type=text], select, textarea {
+
+	width: 400px;
+	padding: 12px;
+	border: 1px solid white;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color: transparent;
+	color: white;
+	height: 60px;
+}
+
+
+input[type=submit] {
+    background-image: linear-gradient(to right, #DE197D, #380441);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50px;
+  width: 220px;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.Upload-Button {
+	width: 400px;
+	padding: 12px;
+	border: 1px solid white;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	height: 60px;
+}
+.containerForm-Send {
+	text-align: center;
+}
+
+.Footer-Copyright {
+	text-align: center;
+	font-size: 20px;
+}
